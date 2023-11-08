@@ -18,7 +18,7 @@ export default function App() {
           setSelectedItem={setSelectedItem}
         />
       </View>
-      <Text>{selectedItem}</Text>
+      <Text style={styles.text}>{`Item selecionado: ${selectedItem}`}</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -36,5 +36,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     gap: 8,
     zIndex: 999999,
+  },
+  text: {
+    marginTop: 10,
+    color: '#FFF',
   },
 });

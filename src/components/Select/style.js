@@ -4,7 +4,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     position: 'relative',
-    height: 30,
+    height: 31,
   },
   inputContainer: {
     flexDirection: 'row',
@@ -13,8 +13,7 @@ const styles = StyleSheet.create({
     borderColor: 'rgba(225, 226, 223, 0.5)',
     paddingLeft: 5,
     fontSize: 16,
-    height: 30,
-    marginTop: 1,
+    height: 31,
   },
   input: {
     flex: 1,
@@ -24,7 +23,6 @@ const styles = StyleSheet.create({
     outlineWidth: 0,
     color: '#FFF',
     paddingBottom: 4,
-    paddingTop: 4,
     fontSize: 16,
     height: 31,
     outlineWidth: 0,
@@ -40,7 +38,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     width: '100%',
     fontSize: 16,
-    top: 30,
+    top: 31,
     left: 0,
     marginBottom: 2,
     maxHeight: 250,
@@ -51,8 +49,8 @@ const styles = StyleSheet.create({
   item: {
     backgroundColor: 'rgb(66 69 99)',
     paddingLeft: 5,
-    paddingBottom: 6,
-    paddingTop: 6,
+    paddingBottom: 5,
+    paddingTop: 5,
     marginBottom: 2,
   },
   itemTitle: {
