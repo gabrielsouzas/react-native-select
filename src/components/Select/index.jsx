@@ -11,13 +11,13 @@ import PropTypes from 'prop-types';
 
 import styles from './style';
 
-export default function Select({ data, placeholder, setSelectedItem }) {
+export default function Select({ options, placeholder, setSelectedItem }) {
   const [value, setValue] = useState('');
   const [filteredData, setFilteredData] = useState('');
   const [selectIsOpen, setSelectIsOpen] = useState(false);
 
   const filterData = (text) => {
-    const filteredDataAux = data.filter((item) =>
+    const filteredDataAux = options.filter((item) =>
       item.toLowerCase().includes(text.toLowerCase())
     );
     setFilteredData(filteredDataAux);
